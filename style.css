@@ -1,0 +1,335 @@
+html{ display: block;}
+html, body{ min-width: 400px;}
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    display: block;
+}
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+div{
+    display: block;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.commun{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    display: inline-block;
+    flex-grow: 1;
+    color: black;
+    min-width: 320px;
+    position: relative;
+    -webkit-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
+    height: 48px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    min-width: initial;
+    min-width: auto;
+}
+.headItems{
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    float: right;
+    padding-left: 0;
+}
+.headLinks{
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+.headTexts{
+    display: inline-block;
+    padding-left: 15px;
+}
+.headText{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+
+}
+.headIcons{
+    position: relative;
+    float: right;
+}
+.menu{
+    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    padding-left: 4px;
+    position: relative;
+}
+.menuLink{
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    padding: 8px;
+    background-position: -64px -29px;
+    opacity: 1;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header svg{
+    fill: currentColor;
+    color: #5f6368;
+    opacity: 1;
+}
+.user{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    flex: 0 1 auto;
+    position: relative;
+}
+.userIcon{
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    flex: 0 1 auto;
+    padding: 4px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mainLogo{
+    flex-shrink: 0;
+    box-sizing: border-box;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    margin-top: auto;
+}
+.space{
+    max-height: 92px;
+    position: relative;
+}
+.logo img{
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+.logoBrand{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+/*Fin del logo*/
+.mainInput{ max-height: 160px; padding: 20px;}
+.mainInput form{
+    display: block;
+    margin-top: 0em;
+}
+.inputsArea{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+}
+.inputContent{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+.inputContent:hover{
+    box-shadow: 0px 1px 5px 0 #20212447;
+    border-color: 5px solid #dfe1e500;
+    background-color: #fff;
+}
+.inputItems{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.searchArea{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    margin: auto;
+}
+.searchArea span{
+    line-height: 24px;
+    position: relative;
+    display: inline-block;
+    fill: currentColor;
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+}
+.searchArea span svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.searchArea span svg:not(:root){overflow: hidden;}
+.inputArea{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.backinput{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+.microArea{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+.microDiv{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.micro{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.buttonDiv{
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    height: 70px;
+}
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.place{
+    flex-grow: 1;
+}
+.region{ text-align: center;}
+#language{
+    font-size: small;
+    margin-bottom: 24px;
+}
+.offered{
+    color: #3c4043;
+    display: inline-block;
+    line-height: 28px;
+}
+/*Fin del main input*/
+.footer{
+    background: #f2f2f2
+}
+.ubication{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+.btm{
+    padding: 0 20px;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pHiOh{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
