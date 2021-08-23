@@ -184,9 +184,9 @@ div{
     max-width: 584px;
 }
 .inputContent:hover{
-    box-shadow: 0px 1px 5px 0 #20212447;
-    border-color: 5px solid #dfe1e500;
     background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 .inputItems{
     flex: 1;
@@ -198,15 +198,14 @@ div{
     display: flex;
     align-items: center;
     padding-right: 13px;
-    margin-top: -5px;
+    margin-top: 0px;
     margin: auto;
 }
 .searchArea span{
-    line-height: 24px;
+    line-height: 120px;
     position: relative;
     display: inline-block;
     fill: currentColor;
-    margin-top: 3px;
     color: #9aa0a6;
     height: 20px;
     width: 20px;
@@ -332,4 +331,51 @@ div{
     padding: 15px;
     white-space: nowrap;
     color: #70757a;
+}
+#subtitle{
+    color: #3375e0;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.cameraArea{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+}
+.camera{
+    height: 24px;
+    width: 24px;
+    background: url(//www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png) 0 0 no-repeat;
+    background-size: 24px;
+}
+.searchIm{
+    height: 44px;
+    width: 44px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    flex: 0 0 auto;
+    padding: 0;
+    padding-right: 13px;
+}
+.searchDiv{
+    background: none;
+    color: #4285f4;
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+.searchIcon{
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
 }
