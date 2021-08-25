@@ -107,3 +107,60 @@ html, body{
     color: #d93025;
     padding-left: 18px;
 }
+.inputField{
+    width: 100%;
+    margin: 8px;
+    padding-left: 5px;
+}
+.inputField h3{
+    font-weight: 400;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.inputs{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.firstLabel{
+    width: 150px;
+    font-size: 16px;
+}
+.inputSearch{
+    min-width: 170px;
+    max-width: 400px;
+    width: 50%;
+}
+.inputs input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    text-align: left;
+    width: 100%;
+}
+.inputs input:focus{
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+.ndLabel{
+    height: 25px;
+    min-width: 150px;
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.ndLabel label{
+    font-size: 11px;
+    color: #555;
+}
+.ndLabel span{
+    font-size: 11px;
+    font-family: monospace;
+    color: #666;
+}
