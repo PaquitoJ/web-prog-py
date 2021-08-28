@@ -166,29 +166,26 @@ html, body{
     color: #666;
 }
 .sentB{
-    max-width: 600px;
+    max-width: 570px;
     margin-top: 30px;
     display: flex;
-    justify-self: center;
-
+    justify-content: flex-end;
+    width: 69%;
 }
 #Search{
-    margin-top: 20px;
-    margin-left: 61%;
+    margin-top: 25px;
     border: 1px solid #e4e3e3;
     border-radius: 4px;
     font-size: 14px;
-    padding: 0 16px;
-    line-height: 20px;
+    padding: 5px 10px 5px;
     height: 30px;
     color: #3c4043;
     min-width: 54px;
-    background-color: #f8f9fa;
-
+    background-color: #f8f9fa
 }
 #Search:hover{
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    background-color:teal;
-    border: 1px solid #dadce0;
-    color: #202124;
+    background-color:rgb(0, 132, 255);
+    border: 1px solid rgb(85, 85, 246);
+    color: rgb(240, 239, 239);
 }
