@@ -309,7 +309,10 @@ div{
 }
 /*Fin del main input*/
 .footer{
-    background: #f2f2f2
+    position: absolute;
+    background: hsl(0, 0%, 95%);
+    bottom: 0;
+    width: 100%;
 }
 .ubication{
     padding: 15px 30px;
@@ -323,7 +326,6 @@ div{
 .foot{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 .pHiOh{
     text-decoration: none;
@@ -331,6 +333,10 @@ div{
     padding: 15px;
     white-space: nowrap;
     color: #70757a;
+}
+.right{
+    position: absolute;
+    right: 17px;
 }
 #subtitle{
     color: #3375e0;
